@@ -1,0 +1,26 @@
+.slider .slides li::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+}
+.slider .slides li > div {
+  z-index: 2;
+}
+.section-search input {
+  padding: 5px !important;
+  font-size: 18px !important;
+  width: 90% !important;
+  border: #f4f4f4 3px solid !important;
+  border-radius: 50px !important;
+}
+.section-follow .fa-4x {
+  margin: 5px 10px;
+}
+#gallery .container h4 {
+  margin-bottom: 10px;
+}
